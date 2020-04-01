@@ -1,12 +1,12 @@
 This script runs the fio benchmark tool on a given device for Sequential Writes, Random Reads and Random Writes on 1G, 5G and 10G files. Tested on Mac and Linux. (should work on windows too, feel free to test and submit a PR)
 
 Requirements :
-  - [fio benchmark tool](https://fio.readthedocs.io/en/latest/fio_doc.html)
+  [fio benchmark tool](https://fio.readthedocs.io/en/latest/fio_doc.html)
   - Install on Linux (centos) : sudo yum install fio
   - Install on Mac : brew install fio
   
 Usage :
- ./runbench.sh /mnt/pmem1/
+ ./runfiobench.sh /mnt/pmem1/
 (Run as root)
 
 Sample results :
