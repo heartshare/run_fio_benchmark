@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#TODO: cycle through different block sizes
+#TODO: test different workload patterns
+#TODO: options for testing different dataset sizes
 #TODO: parse out and report only IOPS and Bandwidth
 #TODO: graph out results of multiple runs
 
