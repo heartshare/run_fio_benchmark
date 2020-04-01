@@ -17,7 +17,7 @@ fi
 display_usage() {
   echo "Run FIO benchmarks on local drives; Sequential Write, Random Read and Write for 1, 5, 10G files"
   echo "**Tested on Mac 10.14 & Centos 7**"
-	echo -e "\nUsage:\n runbench.sh <device path> \n"
+	echo -e "\nUsage:\n runfiobench.sh <device path> \n"
 	}
 
 if [  $# -le 0 ]
