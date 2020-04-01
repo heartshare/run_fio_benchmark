@@ -1,5 +1,7 @@
 This script runs the fio benchmark tool on a given device for Sequential Writes, Random Reads and Random Writes on 1G, 5G and 10G files. Tested on Mac and Linux. (should work on windows too, feel free to test and submit a PR)
 
+The script only tests a narrow set of scenarios, for a more comprehensive test of your setup use the FIO tool directly, have a look at [this site](https://thesanguy.com/2018/01/24/storage-performance-benchmarking-with-fio/) for reference.
+
 Requirements :
   [fio benchmark tool](https://fio.readthedocs.io/en/latest/fio_doc.html)
   - Install on Linux (centos) : sudo yum install fio
